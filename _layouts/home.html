@@ -1,0 +1,114 @@
+---
+layout: default
+---
+{%- assign assets_path = "assets/" -%}
+{%- if site.assets_path -%}
+  {%- assign assets_path = site.assets_path -%}
+{%- endif -%}
+    {% assign ws = '' %}
+    
+    <!-- Header -->
+    <header class="masthead">
+      <div class="container">
+        <div class="intro-text">
+          <div class="intro-heading text-uppercase">{{ site.data.default.brand.intro.heading }}</div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Dark -->
+    <main>
+
+    <!-- Specialties -->
+    <section id="specialties">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">{{ site.data.default.brand.specialties.heading }}</h2>
+            <h3 class="section-subheading text-muted">{{ site.data.default.brand.specialties.subheading }}</h3>
+          </div>
+        </div>
+        <div class="bg-light row text-center">
+          {%- for specialty in site.data.default.brand.specialties.specialty -%}
+          {% assign ws = '' %}
+          <div class="col-md-4">
+            <h4 class="service-heading">{{ specialty.heading }}</h4>
+            <p class="text-muted">{{ specialty.text }}</p>
+          </div>
+          {%- endfor -%}
+        {% assign ws = '' %}
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">{{ site.data.default.brand.services.heading }}</h2>
+            <h3 class="section-subheading text-muted">{{ site.data.default.brand.services.subheading }}</h3>
+          </div>
+        </div>
+        <div class="bg-light row text-center">
+          {%- for service in site.data.default.brand.services.service -%}
+          {% assign ws = '' %}
+          <div class="col-md-4">
+            <h4 class="service-heading">{{ service.heading }}</h4>
+            <p class="text-muted text-justify">{{ service.text }}</p>
+          </div>
+          {%- endfor -%}
+        {% assign ws = '' %}
+        </div>
+      </div>
+    </section>
+
+    <!-- Team -->
+    <section id="team">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">{{ site.data.default.brand.team.heading }}</h2>
+            <h3 class="section-subheading text-muted">{{ site.data.default.brand.team.subheading }}</h3>
+          </div>
+        </div>
+        <div class="bg-light row">
+          {%- for member in site.data.default.brand.team.members -%}
+          {% assign ws = '' %}
+          <div class="col-sm-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="{{ assets_path }}{{ member.img }}" alt="">
+              <h4>{{ member.name }}</h4>
+              <p class="text-muted">{{ member.role }}</p>
+            </div>
+          </div>
+          {%- endfor -%}
+        {% assign ws = '' %}
+        </div>
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <p class="large text-muted">{{ site.data.default.brand.team.text }}</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Connect -->
+    <section id="connect">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">{{ site.data.default.brand.connect.heading }}</h2>
+            <h3 class="section-subheading text-muted">{{ site.data.default.brand.connect.subheading }}</h3>
+          </div>
+        </div>
+        <div class="bg-light row">
+          <div class="col-lg-12">
+            <p class="large text-muted">email: {{ site.data.default.brand.email }}</p>
+            <p class="large text-muted">phone: {{ site.data.default.brand.phone }}</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    </main>
