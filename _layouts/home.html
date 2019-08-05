@@ -31,7 +31,7 @@ layout: default
         <div class="bg-light row text-center">
           {%- for specialty in site.data.default.brand.specialties.specialty -%}
           {% assign ws = '' %}
-          <div class="col-md-4">
+          <div class="col-md-3">
             <h4 class="service-heading">{{ specialty.heading }}</h4>
             <p class="text-muted">{{ specialty.text }}</p>
           </div>
@@ -53,7 +53,7 @@ layout: default
         <div class="bg-light row text-center">
           {%- for service in site.data.default.brand.services.service -%}
           {% assign ws = '' %}
-          <div class="col-md-4">
+          <div class="col-md-6">
             <h4 class="service-heading">{{ service.heading }}</h4>
             <p class="text-muted text-justify">{{ service.text }}</p>
           </div>
@@ -75,7 +75,7 @@ layout: default
         <div class="bg-light row">
           {%- for member in site.data.default.brand.team.members -%}
           {% assign ws = '' %}
-          <div class="col-sm-4">
+          <div class="col-sm-12">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="{{ assets_path }}{{ member.img }}" alt="">
               <h4>{{ member.name }}</h4>
