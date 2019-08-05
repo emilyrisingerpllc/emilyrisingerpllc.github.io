@@ -11,20 +11,10 @@ brand:
     specialty:
       - heading: OCD
         text: Obsessive-Compulsive
-      - heading: GAD
-        text: Generalized Anxiety
-      - heading: BDD
-        text: Body Dysmorphia
       - heading: Specific Phobias
         text: Agoraphobia
       - heading: Social Anxiety Disorder
         text: Fear of social situations
-      - heading: BFRBs
-        text: Body-focused Repetitive Behaviors
-      - heading: Hair-pulling
-        text: Trichotillomania
-      - heading: Skin-picking
-        text: Dermatillomania, Excoriation
       - heading: Panic
         text: Anxiety Attacks
   services:
