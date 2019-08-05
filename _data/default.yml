@@ -38,8 +38,8 @@ brand:
           the use of superbills. Unfortunately we do not offer a sliding scale fee or pro-bono
           appointments at this time.
   team:
-    heading: Meet The Team
-    subheading: Learn Who We Are
+    heading: Meet Our Therapist
+    subheading: Learn Who I Am
     members:
       - name: Emily Risinger
         role: MS, ATR, LPCC
@@ -59,8 +59,8 @@ nav:
     url: '#specialties'
   - title: Services
     url: '#services'
-  - title: Team
-    url: '#team'
+  - title: About
+    url: '#about'
   - title: Connect
     url: '#connect'
 copyright: Copyright &copy; Brave, PLLC 2019
