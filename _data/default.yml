@@ -1,8 +1,7 @@
 brand:
-  name: 'Brave OCD'
-  email: 'help@braveocd.com'
+  name: 'Emily Risinger PLLC'
+  email: 'help@emilyrisinger.com'
   phone: '612-638-2714  Fax: 612-638-2701'
-  address: '6385 Old Shady Oak Rd, Eden Prairie, MN 55344'
   intro:
     heading: OCD and Anxiety Exposure Therapy
   specialties:
@@ -63,7 +62,7 @@ nav:
     url: '#about'
   - title: Connect
     url: '#connect'
-copyright: Copyright &copy; Brave, PLLC 2019
+copyright: Copyright &copy; Emily Risinger PLLC 2019-2021
 quicklinks:
   - title: Privacy Policy
     url: '#'
