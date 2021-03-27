@@ -9,9 +9,9 @@ header.masthead {
       color: $light;
       padding: 0.2em;
       text-shadow: 0 0 0.4em $dark, 0 0 0.3em $dark, 0 0 0.2em $dark, 0 0 0.1em $dark;
-      font-size: 50px;
+      font-size: 37px;
       font-weight: 700;
-      line-height: 50px;
+      line-height: 37px;
       @include heading-font;
     }
   }
@@ -22,9 +22,9 @@ header.masthead {
       padding-top: 250px;
       padding-bottom: 250px;
       .intro-heading {
-        font-size: 75px;
+        font-size: 55px;
         font-weight: 700;
-        line-height: 75px;
+        line-height: 55px;
         @include heading-font;
       }
     }
