@@ -20,7 +20,7 @@ brand:
         text: Social, Emetophobia, Agoraphobia
   services:
     heading: Services
-    subheading: Understand Our Role
+    subheading: Understand My Role
     service:
       - heading: Individual Counseling
         text: >
@@ -36,8 +36,8 @@ brand:
           with their insurance provider; I do not bill insurance payers. Therapy sessions are 45
           minutes. 
   team:
-    heading: Meet Our Therapist
-    subheading: Learn Who I Am
+    heading: Exposure Therapist
+    subheading: Providing the Gold Standard of Treatment
     members:
       - name: Emily Risinger
         role: MS, ATR, LPCC
