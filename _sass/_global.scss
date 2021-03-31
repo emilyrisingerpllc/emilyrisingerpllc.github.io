@@ -122,6 +122,11 @@ img::-moz-selection {
   background: transparent;
 }
 
-.row {
-  border-radius: 1em;
+.row.bg-light {
+  border-top: 3px solid $primary;
+  border-bottom: 3px solid $primary;
+}
+
+#connect .row.bg-light {
+  border-bottom: none;
 }
