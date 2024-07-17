@@ -1,7 +1,7 @@
 brand:
   name: 'Emily Risinger PLLC'
   email: 'help@emilyrisinger.com'
-  phone: '612.564.5717'
+  #phone: '612.564.5717'
   intro:
     heading: >
       ERP for OCD and Anxiety Disorders
