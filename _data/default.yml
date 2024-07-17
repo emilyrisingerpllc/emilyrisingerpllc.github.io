@@ -50,8 +50,7 @@ brand:
   connect:
     heading: Book A Provider
     subheading: >
-      I am here for you when you need me! Call me to schedule an appointment, or send me
-      an email and I’ll get back to you as soon as possible.
+      I am here for you when you need me! Send me an email and I’ll get back to you as soon as possible.
 nav:
   - title: Specialties
     url: '#specialties'
